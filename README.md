@@ -1,6 +1,6 @@
-# Work Stack
+# Unstuck
 
-All-in-one productivity tool for software developers
+Mental health app
 
 ## [work-stack.vercel.app](https://work-stack.vercel.app)
 

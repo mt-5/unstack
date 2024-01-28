@@ -2,8 +2,7 @@
   <header class="py-4 border-b border-neutral-800">
     <UContainer class="flex">
       <a href="/" class="text-xl flex gap-3">
-        <img src="assets/work-stack.svg" class="h-5 mt-1" />
-        <span>WorkStack<sup class="text-emerald-600">v0.1</sup></span>
+        <span>Unstuck</span>
       </a>
       <div class="ml-auto">
         <UButton
