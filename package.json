@@ -1,5 +1,5 @@
 {
-  "name": "unstack",
+  "name": "unstuck",
   "private": true,
   "type": "module",
   "scripts": {
@@ -18,10 +18,8 @@
   },
   "dependencies": {
     "@nuxt/ui": "^2.11.1",
-    "@octokit/rest": "^20.0.2",
     "@pinia/nuxt": "^0.5.1",
     "@supabase/supabase-js": "^2.39.2",
-    "jira.js": "^3.0.2",
     "pinia": "^2.1.7"
   }
 }

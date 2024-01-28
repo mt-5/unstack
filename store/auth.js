@@ -8,16 +8,9 @@ export const useAuthStore = defineStore('auth', {
   actions: {
     async signIn() {
       const supabase = useSupabaseClient()
-      const redirectTo = useRuntimeConfig().public.appUrl + '/confirm'
-      const scopes = 'read:user repo repo_deployment read:project notifications'
 
-      const { error, user } = await supabase.auth.signInWithOAuth({
-        provider: 'github',
-        redirectTo,
-        options: {
-          redirectTo,
-          scopes,
-        },
+      const { error, user } = supabase.auth.signInWithOAuth({
+        provider: 'google',
       })
 
       if (error) {
