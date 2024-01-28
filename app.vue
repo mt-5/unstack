@@ -5,11 +5,11 @@
 </template>
 <script setup>
   useHead({
-    title: 'WorkStack',
+    title: 'Unstuck',
     meta: [
       {
         name: 'description',
-        content: 'All-in-one productivity app for software developers',
+        content: 'Mental health app',
       },
     ],
   })
